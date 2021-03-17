@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>The Official Apple Spare Parts E-Shop</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhaNPvSl5KYnjx0BT+WB0QEEqLpr0+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet"
+        />    
+    </head>
+    <body>
+
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/index.html" id="navbar__logo"><i class="logo fa-gem"></i></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/mac.html" class="navbar__links"> Mac </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/ipad.html" class="navbar__links"> iPad </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/iphone.html" class="navbar__links"> iPhone </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/watch.html" class="navbar__links"> Watch </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/tv.html" class="navbar__links"> TV </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/music.html" class="navbar__links"> Music </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://support.apple.com/tr-tr" class="navbar__links"> Destek </a>
+                    </li>
+                    <div class="dropdown">
+                    <li class="navbar__item">
+                        <button onclick="myFunction()" class="shoppingbagbutton"></button>
+                    </li>
+                    </div>
+                    <div class="dropdown">
+                    <li class="navbar__item">
+                        <button onclick="myFunction()" class="dropbtn"></button>
+                    </button>
+                        <div id="myDropdown" class="dropdown-content"> 
+                            <img onclick="location.href='iphone12prolist.html';" src="/images/shoppingbagblue.svg">Çanta</a>
+                            <img onclick="location.href='iphone12prolist.html';" src="/images/favorite.svg">Favoriler</a>
+                            <img onclick="location.href='iphone12prolist.html';" src="/images/orders.svg">Siparişler</a>
+                            <img onclick="location.href='iphone12prolist.html';" src="/images/settings.svg">Hesap</a>
+                            <img onclick="location.href='https://secure2.store.apple.com/shop/signIn?c=aHR0cHM6Ly93d3cuYXBwbGUuY29tL3wxYW9zZTQyMmM4Y2NkMTc4NWJhN2U2ZDI2NWFmYWU3NWI4YTJhZGIyYzAwZQ&r=SCDHYHP7CY4H9XK2H&s=aHR0cHM6Ly93d3cuYXBwbGUuY29tL3wxYW9zZTQyMmM4Y2NkMTc4NWJhN2U2ZDI2NWFmYWU3NWI4YTJhZGIyYzAwZQ';" src="/images/login.svg">Oturum Açın</a>
+                          </div>
+                    </li>
+                </div>
+                </ul>
+            </div>
+        </nav>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css" />
+<br>
+<h2 class="paymenth2">Ödeme Bilgileri</h2>
+<p class="paymentp">Sipariş için lütfen ödeme bilgilerinizi giriniz.</p>
+<br>
+<div class="payment-row">
+  <div class="col-75">
+    <div class="payment-container">
+      <form action="/action_page.php" >
+        <div class="payment-row">
+          <div class="col-50">
+            <h3>Fatura Adresi</h3>
+            <label for="fname"><i class="fa fa-user"></i> Adı Soyadı</label>
+            <input type="text" id="fname" name="adsoyad" placeholder="Tim Cook">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="apple@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Adres</label>
+            <input type="text" id="adr" name="adres" placeholder="Cupertino,California,Amerika Birleşik Devletleri">
+            <label for="city"><i class="fa fa-institution"></i> İl</label>
+            <input type="text" id="city" name="il" placeholder="İstanbul">
+
+            <div class="payment-row">
+              <div class="col-50">
+                <label for="state">İlçe</label>
+                <input type="text" id="state" name="ilçe" placeholder="Beykoz">
+              </div>
+              <div class="col-50">
+                <label for="zip">Posta Kodu</label>
+                <input type="text" id="zip" name="postakodu" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Ödeme</h3>
+            <label for="fname">Onaylı Kartlar</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Kart üzerindeki adı soyadı</label>
+            <input type="text" id="cname" name="kartad" placeholder="Tim Cook">
+            <label for="ccnum">Kredi kart numarası</label>
+            <input type="text" id="ccnum" name="kartno" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Son Ay</label>
+            <input type="text" id="expmonth" name="sonay" placeholder="Eylül">
+            <div class="payment-row">
+              <div class="col-50">
+                <label for="expyear">Son Yıl</label>
+                <input type="text" id="expyear" name="sonyıl" placeholder="2026">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>  
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Sipariş adresi ile fatura adresi aynı olsun
+        </label>
+        <input type="submit" value="Ödemeyi Tamamlayın" class="paymentbtn">
+      </form>
+    </div>
+  </div>
+
+<script src="app.js"></script>
+<script src="shoppingbagbutton.js"></script>
+</body>
+</html>
