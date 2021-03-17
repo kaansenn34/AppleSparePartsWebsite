@@ -1,2 +1,3 @@
 # AppleSparePartsWebsite
-Only Front-End Project..
+Apple Spare Parts E-Commerce Website.
+Only Front-End Project.
